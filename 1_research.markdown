@@ -14,9 +14,15 @@ permalink: /1_research/
 </p>
 
 <p style="text-align:justify"> 
-<figure alt="Google Maps link" style="width:740px;height:540px">
+<figure alt="Google Maps link" style="width:740px;height:600px">
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qJa_qHb52JfgC1wwAcMDa_GWHLKectq_" width="740" height="480"></iframe>
 <figcaption style ="text-align:justify">
 	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from Balbas et al. (2017) are included for reference.
 	</figcaption> 
-	
+
+
+<h4>Drag the mouse to create a rectangle</h4>
+<div id = "canvasWrapper">
+ <canvas id="overlay" width=300 height=300></canvas>
+ <canvas id="canvas" width=300 height=300></canvas>
+</div>
