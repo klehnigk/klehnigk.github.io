@@ -19,10 +19,20 @@ permalink: /1_research/
 <figcaption style ="text-align:justify">
 	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from Balbas et al. (2017) are included for reference.
 	</figcaption> 
+</p>
 
 
-<h4>Drag the mouse to create a rectangle</h4>
-<div id = "canvasWrapper">
- <canvas id="overlay" width=300 height=300></canvas>
- <canvas id="canvas" width=300 height=300></canvas>
-</div>
+<p style="text-align:justify"> Drag the mouse to create a rectangle
+</p>
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<style type="text/css">
+<!--
+.rectangle {
+border: 1px solid #FF0000;
+position: absolute;
+}
