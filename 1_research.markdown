@@ -22,7 +22,14 @@ permalink: /1_research/
 </p>
 
 
-<p style="text-align:justify"> Drag the mouse to create a rectangle
-<canvas id="myCanvas" width = "350" height ="350" onmousedown="draw_on(event)" onmouseup = "draw_off(event)" onmousemove = "mouse_loc(event)" onmouseout = "start_sim(event)" onmouseover = "start_draw(event)" style ="border:4px solid #ededed;"></canvas>
-			<script src="/assets/scripts/rectangles.js" type="text/javascript"></script>
-</p>
+<figure style="float: right;margin-left:15px;float:right;padding-left:20px;">
+<canvas id="overlay" width=300 height=300></canvas>
+<canvas id="canvas" width=300 height=300></canvas>
+<script src="/assets/scripts/rectangles.js" type="text/javascript"></script>
+<figcaption style="text-align:justify">
+<b>Fig. 2</b> Draw your own initial condition!<br />
+<b>Instructions:</b><br />
+(1) Hold down the mouse and draw an initial channel.<br />
+(2) Move the mouse out of the box to run the model.
+</figcaption>
+</figure>
