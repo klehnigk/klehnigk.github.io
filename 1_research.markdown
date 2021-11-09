@@ -23,9 +23,9 @@ permalink: /1_research/
 
 <h1><b>Initial Conditions</b>
 	<figure style="float: right;margin-left:15px;float:right;padding-left:20px;">
-			<canvas id="myCanvas" width = "350" height ="350" onmousedown="draw_on(event)" onmouseup = "draw_off(event)" onmousemove = "mouse_loc(event)" onmouseout = "start_sim(event)" onmouseover = "start_draw(event)" style ="border:4px solid #ededed;"></canvas>
+		    <canvas id="overlay" width=300 height=300></canvas>
+		    <canvas id="canvas" width=300 height=300></canvas>
 			<script src="/assets/scripts/rectangles.js" type="text/javascript"></script>
-			
 			<figcaption style="text-align:justify">
 				<b>Fig. 2</b> Draw your own initial condition!<br />
 				<b>Instructions:</b><br />
