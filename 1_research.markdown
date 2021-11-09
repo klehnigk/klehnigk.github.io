@@ -20,11 +20,3 @@ permalink: /1_research/
 	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from Balbas et al. (2017) are included for reference.
 	</figcaption> 
 	
-<p style="text-align:justify"> I like meow mix. It is my favorite type of food. <i>Yum!</i>
-<figure alt="Grid" style="width:556px;height:540px">
-<img src="/assets/pdf/Meow-Mix-Logo.jpeg">
-<figcaption style ="text-align:justify">
-<b>Fig. 1</b> Tasty foods. <a href=" /assets/pdf/Meow-Mix-Logo.jpeg"><b>SOURCE</b></a>
-</figcaption>  
-</figure>
-</p>
