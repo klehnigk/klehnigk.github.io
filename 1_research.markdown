@@ -31,8 +31,8 @@ permalink: /1_research/
 <h1><b>Initial Conditions</b>
 	<figure style="float: right;margin-left:15px;float:right;padding-left:20px;">
 		<div id = "canvasWrapper">
-		    <canvas id="overlay" width="300" height="300" onmousedown="handleMouseDown(e)" onmouseup= "handleMouseUp(e)"></canvas>
-		    <canvas id="canvas" width="300" height="300"></canvas>
+		    <canvas id="overlay" width="300" height="300" ></canvas>
+		    <canvas id="canvas" width="300" height="300" onmousedown="handleMouseDown(e)" onmouseup= "handleMouseUp(e)"></canvas>
 			<script src="/assets/scripts/rectangles.js" type="text/javascript"></script>
 		</div>
 			<figcaption style="text-align:justify">
