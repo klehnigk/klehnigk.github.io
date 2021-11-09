@@ -4,6 +4,13 @@ title: My Research
 permalink: /1_research/
 ---
 
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+
 <p style="text-align:justify"> [ANUGA flood video: cataract vs ice vs modern]
 </p>
 
@@ -23,9 +30,11 @@ permalink: /1_research/
 
 <h1><b>Initial Conditions</b>
 	<figure style="float: right;margin-left:15px;float:right;padding-left:20px;">
-		    <canvas id="overlay" width=300 height=300></canvas>
-		    <canvas id="canvas" width=300 height=300></canvas>
+		<div id = "canvasWrapper">
+		    <canvas id="overlay" width="300" height="300" onmousedown="handleMouseDown(e)" onmouseup= "handleMouseUp(e)"></canvas>
+		    <canvas id="canvas" width="300" height="300"></canvas>
 			<script src="/assets/scripts/rectangles.js" type="text/javascript"></script>
+		</div>
 			<figcaption style="text-align:justify">
 				<b>Fig. 2</b> Draw your own initial condition!<br />
 				<b>Instructions:</b><br />
