@@ -23,7 +23,6 @@ permalink: /1_research/
 
 
 <p style="text-align:justify"> Drag the mouse to create a rectangle
-</p>
 <html>
 <head>
 <title>Untitled Document</title>
