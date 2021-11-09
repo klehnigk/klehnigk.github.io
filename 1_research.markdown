@@ -19,13 +19,12 @@ permalink: /1_research/
 <figcaption style ="text-align:justify">
 	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from Balbas et al. (2017) are included for reference.
 	</figcaption> 
-</p>
 
 
 <h1><b>Initial Conditions</b>
 	<figure style="float: right;margin-left:15px;float:right;padding-left:20px;">
 			<canvas id="myCanvas" width = "350" height ="350" onmousedown="draw_on(event)" onmouseup = "draw_off(event)" onmousemove = "mouse_loc(event)" onmouseout = "start_sim(event)" onmouseover = "start_draw(event)" style ="border:4px solid #ededed;"></canvas>
-			<script src="/assets/scripts/lem.js" type="text/javascript"></script>
+			<script src="/assets/scripts/rectangles.js" type="text/javascript"></script>
 			
 			<figcaption style="text-align:justify">
 				<b>Fig. 2</b> Draw your own initial condition!<br />
