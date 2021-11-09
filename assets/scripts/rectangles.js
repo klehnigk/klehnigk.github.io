@@ -1,113 +1,52 @@
-// get references to the canvas and context
-var canvas = document.getElementById("canvas");
-var overlay = document.getElementById("overlay");
-var ctx = canvas.getContext("2d");
-var ctxo = overlay.getContext("2d");
+initDraw(document.getElementById('canvas'));
 
-// style the context
-ctx.strokeStyle = "blue";
-ctx.lineWidth = 3;
-ctxo.strokeStyle = "blue";
-ctxo.lineWidth = 3;
 
-// calculate where the canvas is on the window
-// (used to help calculate mouseX/mouseY)
-var $canvas = $("#canvas");
-var canvasOffset = $canvas.offset();
-var offsetX = canvasOffset.left;
-var offsetY = canvasOffset.top;
-var scrollX = $canvas.scrollLeft();
-var scrollY = $canvas.scrollTop();
 
-// this flage is true when the user is dragging the mouse
-var isDown = false;
+function initDraw(canvas) {
+    function setMousePosition(e) {
+        var ev = e || window.event; //Moz || IE
+        if (ev.pageX) { //Moz
+            mouse.x = ev.pageX + window.pageXOffset;
+            mouse.y = ev.pageY + window.pageYOffset;
+        } else if (ev.clientX) { //IE
+            mouse.x = ev.clientX + document.body.scrollLeft;
+            mouse.y = ev.clientY + document.body.scrollTop;
+        }
+    };
 
-// these vars will hold the starting mouse position
-var startX;
-var startY;
+    var mouse = {
+        x: 0,
+        y: 0,
+        startX: 0,
+        startY: 0
+    };
+    var element = null;
 
-var prevStartX = 0;
-var prevStartY = 0;
-
-var prevWidth  = 0;
-var prevHeight = 0;
-
-function handleMouseDown(e) {
-    e.preventDefault();
-    e.stopPropagation();
-
-    // save the starting x/y of the rectangle
-    startX = parseInt(e.clientX - offsetX);
-    startY = parseInt(e.clientY - offsetY);
-
-    // set a flag indicating the drag has begun
-    isDown = true;
-}
-
-function handleMouseUp(e) {
-    e.preventDefault();
-    e.stopPropagation();
-
-    // the drag is over, clear the dragging flag
-    isDown = false;
-    ctxo.strokeRect(prevStartX, prevStartY, prevWidth, prevHeight);
-}
-
-function handleMouseOut(e) {
-    e.preventDefault();
-    e.stopPropagation();
-
-    // the drag is over, clear the dragging flag
-    isDown = false;
-}
-
-function handleMouseMove(e) {
-    e.preventDefault();
-    e.stopPropagation();
-
-    // if we're not dragging, just return
-    if (!isDown) {
-        return;
+    canvas.onmousemove = function (e) {
+        setMousePosition(e);
+        if (element !== null) {
+            element.style.width = Math.abs(mouse.x - mouse.startX) + 'px';
+            element.style.height = Math.abs(mouse.y - mouse.startY) + 'px';
+            element.style.left = (mouse.x - mouse.startX < 0) ? mouse.x + 'px' : mouse.startX + 'px';
+            element.style.top = (mouse.y - mouse.startY < 0) ? mouse.y + 'px' : mouse.startY + 'px';
+        }
     }
 
-    // get the current mouse position
-    mouseX = parseInt(e.clientX - offsetX);
-    mouseY = parseInt(e.clientY - offsetY);
-
-    // Put your mousemove stuff here
-
-    
-
-    // calculate the rectangle width/height based
-    // on starting vs current mouse position
-    var width = mouseX - startX;
-    var height = mouseY - startY;
-
-		// clear the canvas
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    // draw a new rect from the start position 
-    // to the current mouse position
-    ctx.strokeRect(startX, startY, width, height);
-    
-		prevStartX = startX;
-		prevStartY = startY;
-
-		prevWidth  = width;
-		prevHeight = height;
+    canvas.onclick = function (e) {
+        if (element !== null) {
+            element = null;
+            canvas.style.cursor = "default";
+            console.log("finsihed.");
+        } else {
+            console.log("begun.");
+            mouse.startX = mouse.x;
+            mouse.startY = mouse.y;
+            element = document.createElement('div');
+            element.className = 'rectangle'
+            element.style.left = mouse.x + 'px';
+            element.style.top = mouse.y + 'px';
+            canvas.appendChild(element)
+            canvas.style.cursor = "crosshair";
+        }
+    }
 }
-
-// listen for mouse events
-$("#canvas").mousedown(function (e) {
-    handleMouseDown(e);
-});
-$("#canvas").mousemove(function (e) {
-    handleMouseMove(e);
-});
-$("#canvas").mouseup(function (e) {
-    handleMouseUp(e);
-});
-
-$("#canvas").mouseout(function (e) {
-    handleMouseOut(e);
-});
