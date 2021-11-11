@@ -26,8 +26,14 @@ permalink: /1_research/
 <figcaption style ="text-align:justify">
 	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from Balbas et al. (2017) are included for reference.
 	</figcaption> 
-
-
+<head>
+	<title>Canvas</title>
+	<style>
+		canvas {border: 1px solid black;}
+		</style>
+	</head>
+	<body>
+<h1>Canvas</h1>
     <canvas width="200" height="200" id="myCanvas"></canvas>
     <script>
 		var canvas = document.getElementByID("myCanvas");
@@ -37,3 +43,4 @@ permalink: /1_research/
 		ctx.fillRect(50, 40, 100, 30);
 		ctx.fillRect(50, 40, 100, 30);
     </script>
+</body>
