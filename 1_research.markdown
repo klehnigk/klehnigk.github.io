@@ -28,9 +28,6 @@ permalink: /1_research/
 	</figcaption> 
 
 
-
-	<figure style="float: right;margin-left:15px;float:right;padding-left:20px;">
-
     <canvas width="200" height="200" id="myCanvas"></canvas>
     <script>
 		var canvas = document.getElementByID("myCanvas");
@@ -40,12 +37,3 @@ permalink: /1_research/
 		ctx.fillRect(50, 40, 100, 30);
 		ctx.fillRect(50, 40, 100, 30);
     </script>
-
-			<figcaption style="text-align:justify">
-				<b>Fig. 2</b> Draw your own initial condition!<br />
-				<b>Instructions:</b><br />
-				(1) Hold down the mouse and draw an initial channel.<br />
-				(2) Move the mouse out of the box to run the model.
-			</figcaption>
-	</figure>
-</h1>
