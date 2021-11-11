@@ -28,56 +28,17 @@ permalink: /1_research/
 	</figcaption> 
 
 
-<h1><b>Initial Conditions</b>
+
 	<figure style="float: right;margin-left:15px;float:right;padding-left:20px;">
 
-    <canvas id="canvas" width="800" height="500"></canvas>
-    <div id="output"></div>
+    <canvas width="200" height="200" id="myCanvas"></canvas>
     <script>
-        //Canvas
-var canvas = document.getElementById('canvas');
-var ctx = canvas.getContext('2d');
-//Variables
-var canvasx = $(canvas).offset().left;
-var canvasy = $(canvas).offset().top;
-var last_mousex = last_mousey = 0;
-var mousex = mousey = 0;
-var mousedown = false;
-
-//Mousedown
-$(canvas).on('mousedown', function(e) {
-    last_mousex = parseInt(e.clientX-canvasx);
-    last_mousey = parseInt(e.clientY-canvasy);
-    mousedown = true;
-});
-
-//Mouseup
-$(canvas).on('mouseup', function(e) {
-    mousedown = false;
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-});
-
-//Mousemove
-$(canvas).on('mousemove', function(e) {
-    mousex = parseInt(e.clientX-canvasx);
-    mousey = parseInt(e.clientY-canvasy);
-    if(mousedown) {
-        ctx.clearRect(0,0,canvas.width,canvas.height); //clear canvas
-        ctx.beginPath();
-        var width = mousex-last_mousex;
-        var height = mousey-last_mousey;
-        ctx.rect(last_mousex,last_mousey,width,height);
-        //ctx.fillStyle = "#8ED6FF";
-        ctx.fillStyle = 'rgba(164, 221, 249, 0.3)'
-        ctx.fill();
-        ctx.strokeStyle = '#1B9AFF';
-        ctx.lineWidth = 1;
-        ctx.fillRect(last_mousex, last_mousey, width, height)
-        ctx.stroke();
-    }
-    //Output
-    $('#output').html('current: '+mousex+', '+mousey+'<br/>last: '+last_mousex+', '+last_mousey+'<br/>mousedown: '+mousedown);
-});
+		var canvas = document.getElementByID("myCanvas");
+		var ctx = canvas.getContext("2d");
+		
+		ctx.fillStyle = "rgb(200, 0, 200)";
+		ctx.fillRect(50, 40, 100, 30);
+		ctx.fillRect(50, 40, 100, 30);
     </script>
 
 			<figcaption style="text-align:justify">
