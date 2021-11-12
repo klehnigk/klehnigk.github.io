@@ -24,8 +24,15 @@ permalink: /1_research/
 <figure alt="Google Maps link" style="width:740px;height:600px">
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qJa_qHb52JfgC1wwAcMDa_GWHLKectq_" width="740" height="480"></iframe>
 <figcaption style ="text-align:justify">
-	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from Balbas et al. (2017) are included for reference.
+	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from <a href=" https://iafi.org/iafi/wp-content/uploads/Balbas2017-Missoula-Flood-Chronology.pdf"><b>Balbas et al. (2017)</b></a> are included for reference.
 	</figcaption> 
+	
+<p style="text-align:justify">We can also test whether floods of different sizes would be big enough to erode the rock that makes up the landscape. The Channeled Scablands are a neat place to test this because the columnar basalt that makes up the bedrock has a relatively consistent fracture geometry, and field evidence (link: ), modern analogs (link: ), and lab experiments (link: ) indicate that the canyons were probably carved by giant waterfalls that retreated as they eroded.
+</p>
+
+<figcaption style ="text-align:justify">Adjust the dimensions, shear stress, and cohesion of the column to see whether it will topple, slide, or stay put
+</figcaption> 
+	
 <head>
 	<title>Canvas</title>
 	<style>
@@ -44,3 +51,9 @@ permalink: /1_research/
 		ctx.fillRect(50, 40, 100, 30);
     </script>
 </body>
+
+<p style="text-align:justify">Another big question is: what did the landscape look like before it was altered by erosion from big floods? If we want to model floods on topography similar to what they would have encountered, rather than the modern landscape, we need to make some assumptions about what that prior landscape looked like--which is hard to do when it’s gone! Luckily, many landscapes contain clues to help us reconstruct prior land surfaces over which we can run our hydraulic models of early floods.
+</p>
+
+<p style="text-align:justify">In the Channeled Scablands, we use hanging tributaries to interpolate a pre-incision valley. In northern Norway, the canyon is so narrow we can just connect the banks. On Mars, terraces from successive waves of incision tell us the elevation of the channel floor at different times.
+</p>
