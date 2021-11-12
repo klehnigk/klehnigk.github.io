@@ -4,18 +4,16 @@ title: My Research
 permalink: /1_research/
 ---
 
-<html>
-<head>
-<style>
-</style>
-</head>
-<body>
-
-<p style="text-align:justify"> [ANUGA flood video: cataract vs ice vs modern]
-</p>
-
 <p style="text-align:justify"> The canyons in the Channeled Scabland of Eastern Washington were carved when floods from the ice-dammed glacial Lake Missoula eroded columns of basalt during the last Ice Age. The extent of erosion, and position of since-retreated glaciers, dictated how much water could flow along that route. These three models show how vastly different amounts of water can reach the same spot on the landscape when we change the boundary conditions to represent different phases of the canyon’s evolution.
 </p>
+
+<figure style="width:500px;height:500px;display: block;margin: auto;">
+		<video controls>
+			<source src="/assets/videos/GC_anuga.mov" type="video/mov">
+			Your browser does not support the video tag.
+		</video> 
+	<figcaption><b>Fig. 1</b> Three hydraulic models showing inundation of Grand Coulee, a large canyon in the Channeled Scablands, for several discharges with three different topographic boundary conditions, representing phases of Grand Coulee's formation: modern topography (upper left), maximum ice extent (upper right), and partial erosion (bottom). With each topographic configuration, very different discharges are required to inundate a drainage divide crossed by floods (green circle).</figcaption>
+</figure>
 
 <p style="text-align:justify"> So which one is right? We sample flood-transported granite boulders to sort out the timing of floods on different surfaces and along different pathways. When something sits on the Earth’s surface for a long time, it accumulates an isotope called beryllium-10 at a predictable rate from cosmic rays. We can measure the amount of beryllium-10 in a rock, and use it as a clock to say when that rock was eroded, transported, and deposited by floods. Explore our sample locations throughout the Scablands here!
 </p>

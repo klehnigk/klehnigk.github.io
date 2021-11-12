@@ -35,5 +35,5 @@ permalink: /5_useful-links/
 <p style="text-align:justify"> <a href=" https://www.nsfgrfp.org/"><b>GRFP</b></a>: Information about applying to the NSF’s Graduate Research Fellows program. Alex Lang has also created a <a href=" https://www.alexhunterlang.com/nsf-fellowship"><b>helpful website</b></a> for prospective applicants with lots examples of past winners’ research & personal statements
 </p>
 
-<p style="text-align:justify">If you like this website and want to make your own, <a href=" https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages"><b>here's'</b></a> a helpful guide! I modeled mine after my labmate <a href=" https://jeffskwang.github.io/research/"><b>Jeffrey Kwang</b></a> who was inspired by <a href=" http://mbtaviz.github.io/"><b>this</b></a> Boston-area transit website
+<p style="text-align:justify">If you like this website and want to make your own, <a href=" https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages"><b>here's</b></a> a helpful guide! I modeled mine after my labmate <a href=" https://jeffskwang.github.io/research/"><b>Jeffrey Kwang</b></a> who was inspired by <a href=" http://mbtaviz.github.io/"><b>this</b></a> Boston-area transit website
 </p>
