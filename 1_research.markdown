@@ -26,8 +26,8 @@ permalink: /1_research/
 </p>
 
 <p style="text-align:justify"> 
-<figure alt="Google Maps link" style="width:740px;height:600px">
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qJa_qHb52JfgC1wwAcMDa_GWHLKectq_" width="740" height="480"></iframe>
+<figure alt="Google Maps link" style="width:740px;height:640px">
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qJa_qHb52JfgC1wwAcMDa_GWHLKectq_" width="740" height="4800"></iframe>
 <figcaption style ="text-align:justify">
 	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from <a href=" https://iafi.org/iafi/wp-content/uploads/Balbas2017-Missoula-Flood-Chronology.pdf"><b>Balbas et al. (2017)</b></a> are included for reference.
 	</figcaption> 
