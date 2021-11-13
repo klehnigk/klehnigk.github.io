@@ -15,7 +15,7 @@ permalink: /1_research/
 </p>
 
 <figure style="width:740px;height:480px">
-		<video controls>
+		<video width="740" height="480" controls>
 			<source src="/assets/videos/GC_anuga.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 		</video> 
