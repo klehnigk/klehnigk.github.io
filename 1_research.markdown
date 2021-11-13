@@ -14,7 +14,7 @@ permalink: /1_research/
 <p style="text-align:justify"> The canyons in the Channeled Scabland of Eastern Washington were carved when floods from the ice-dammed glacial Lake Missoula eroded columns of basalt during the last Ice Age. The extent of erosion, and position of since-retreated glaciers, dictated how much water could flow along that route. These three models show how vastly different amounts of water can reach the same spot on the landscape when we change the boundary conditions to represent different phases of the canyon’s evolution.
 </p>
 
-<figure style="width:740px;height:480px;display: block;margin: auto;">
+<figure style="width:740px;height:480px">
 		<video controls>
 			<source src="/assets/videos/GC_anuga.mp4" type="video/mp4">
 			Your browser does not support the video tag.
