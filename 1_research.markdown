@@ -38,10 +38,9 @@ permalink: /1_research/
 <figcaption style ="text-align:justify">Adjust the dimensions, shear stress, and cohesion of the column to see whether it will topple, slide, or stay put
 </figcaption> 
 	
-<title>Canvas</title>
-	<style>
+<style>
 		canvas {border: 1px solid black;}
-	</style>
+</style>
 
 
 <h1>Canvas</h1>

@@ -3,5 +3,45 @@ layout: default
 title: Home
 ---
 
-<p style="width:600px;text-align:center;margin-left:auto;margin-right:auto">
-Hello World!.</p>
+<p style="text-align:justify"> My name is Karin Lehnigk. I study how landscapes have changed over time, to predict how they might change in the future. 
+
+Geomorphic processes such as floods, landslides, or plants and animals doing their thing can change topography. But topography also controls how and where these processes take place. The connections between topography and surface processes are complicated, but can help us learn why landscapes look the way they do and identify potential risks from future changes.
+</p>
+
+	<figure alt="Stone wall in the forest" style="width:300px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:170px">
+		<img src="/assets/images/stonewall_mapio.jpeg">
+	</figure>
+	
+<p style="text-align:justify"> The stone walls found all over New England are one of my favorite ways to reveal what's going on in the landscape. European colonists built these to get rid of the massive boulders in the glacial till they tried to farm. They stand out really well on LiDAR imagery!
+</p>
+	
+	<figure alt="Map of walls" style="width:300px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:170px">
+		<img src="/assets/images/walls.jpg">
+	</figure>
+	
+<p style="text-align:justify"> Often it can be tricky (and expensive!) to find ages and rates of hillslope processes, but since the walls were built by people, we can sometimes find construction ages in historical records, and use those ages along with the hillslope morphology (fancy word for shape) to estimate how fast the soil has been moving downhill.
+</p>
+
+	<figure alt="Measuring walls" style="width:300px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:170px">
+		<img src="/assets/images/wallsave5.jpg">
+	</figure>
+	
+My labmate and I found this gorgeous wall built in 1780 in Leverett, MA one chilly spring morning, and measured the elevation of the land surface uphill and downhill from the wall. I wrote up a Matlab script that would solve the diffusion equation to evolve the hillslope topography a few meters away from the wall, and stop when the size of the modeled sediment wedge uphill of the wall equaled the size we measured in the field, to solve for the diffusivity, or mobility, of the hillslope. 
+
+<figure style="width:740px;height:580px">
+		<video width="740" height="440" controls>
+			<source src="/assets/videos/walltopo.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video> 
+	<figcaption>I programmed the model to stop once the area of the modeled wedge barely exceeds the area of the real one we measured, and it stopped at a diffusivity of 0.0038 m3/m/yr. That's a pretty reasonable value for till-covered fields, falling somewhere between coarse soil (0.004 – 0.006 m3/m/yr) and sandy gravel (0.002 m3/m/yr). The different shades of brown on the hill show the final profile at the end of the model. The model stops as soon as the area of the material eroded from the top of the hill on the left side (which equals the area of material accumulated at the bottom of the hill) exceeds the wedge area of 1.002 m2. The red dot marks the top of the sediment wedge.</figcaption>
+</figure>
+
+<p style="text-align:justify"> With our ballpark diffusivity, we could apply it to a bigger 2D landscape and see how well our model performs. Using the topography around the wall, I ran the model for 238 years--the same age as the wall--and looked at the elevation differences afterwards. Sediment builds up on the uphill side of the wall to form a pile about the same size as the one we measured; cool! 
+</p>
+
+	<figure alt="Measuring walls" style="width:300px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:170px">
+		<img src="/assets/images/wall_model_1.png">
+	</figure>
+	
+<p style="text-align:justify"> The construction of the walls corresponds with some major landscape changes associated with European settlement, such as widespread clear-cutting, construction of dams and millponds, and plow-based agriculture. We can compare our erosion rates with estimates over a longer time period to see how these changes stack up against changes caused by climate or tectonics, or how similar they are to other landscapes around the world. Or consider how differences in surface materials might change the hillslope diffusivity, and the role human activities have played in shaping that. Once you start thinking about the hidden information in landscapes there's no going back!
+</p>
