@@ -12,6 +12,9 @@ permalink: /4_random/
 <body>
 	
 <p style="text-align:justify">My favorite thing to do after a long day in the field is to sketch. Here are a couple of my favorites...
+	<figure alt="Landscape sketches" style="width:300px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:170px">
+		<img src="/assets/images/sketches.jpg">
+	</figure>
 </p>
 
 <p style="text-align:justify">I also started writing and hosting virtual trivia games during the pandemic. Here’s a game if you want to play with your friends! Send me an email if you’d like to join in over zoom!
@@ -25,7 +28,10 @@ permalink: /4_random/
 	</figure>
 </p>
 
-<p style="text-align:justify">[model rocketry]
+<p style="text-align:justify">Besides hanging out in parks, the other thing that drew me into a career in science was competing on my high school model rocketry team. Building rockets and flying them over and over under different conditions made physics way more fun and accessible than my textbooks, and helped me understand that even though something works perfectly in the lab, it's a whole different story in the real world!
+	<figure alt="Rocketry team" style="width:300px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:170px">
+		<img src="/assets/images/SLI.JPG">
+	</figure>
 </p>
 
 <p style="text-align:justify">Some of my favorite podcasts to listen to while I work

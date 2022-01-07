@@ -21,10 +21,8 @@
 title: Karin Lehnigk
 email: klehnigk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  What happens when you build your fancy cheese factory 
-  on steep slopes in areas of high rainfall?
+  I'm working on a top-secret breccia project. I'd tell you more, but it's clastified information.
 
-  De brie flows
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KarinInACanyon
