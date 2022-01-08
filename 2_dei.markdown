@@ -19,9 +19,20 @@ permalink: /2_dei/
 	</figure>
 	
 	<figure alt="BBBS (Big Brothers Big Sisters)" style="width:330px;height:330px;margin-right:10px;float:left;padding-right:10px;padding-bottom:10px">
-		<img src="/assets/images/BBBS1.jpg">
-			<figcaption><a href=" https://urgeoscience.org/"><b>Big Brothers Big Sisters</b></a> pairs kids from underserved communities with a long-term mentor. My Little Sister is the absolute best; here we are after helping out at a river cleanup!.</figcaption>
+		<img src="/assets/images/Eureka.png">
+			<figcaption><a href=" https://www.bbbs.org/"><b>Big Brothers Big Sisters</b></a> pairs kids from underserved communities with a long-term mentor. My Little Sister is the absolute best; here we are after helping out at a river cleanup!</figcaption>
 	</figure>
+	
+	<figure alt="Eureka (Girls, Inc.)" style="width:330px;height:330px;margin-right:10px;float:left;padding-right:10px;padding-bottom:10px">
+		<img src="/assets/images/BBBS1.jpg">
+			<figcaption><a href=" https://www.girlsincvalley.org/portfolio/eureka/"><b>Eureka! Girls Inc.</b></a> is a comprehensive 5-year STEM program for girls; scholars are introduced to the program through a summer camp, where they take part in activities offered by university students and faculty, transitioning to externship and college prep in later years. I love coming up with new activities for this group each year; here we are learning about coring and the sedimentary record!</figcaption>
+	</figure>
+	
+	<figure alt="Skype a Scientist" style="width:330px;height:330px;margin-right:10px;float:left;padding-right:10px;padding-bottom:10px">
+		<img src="/assets/images/skype.png">
+			<figcaption><a href=" https://www.skypeascientist.com/"><b>Skype a Scientist</b> connects classrooms with STEM professionals around the globe over video conference. This has been an especially  great  way to connect during the COVID-19 pandemic!</a></figcaption>
+	</figure>
+	
 </p>	
 
 <p style="text-align:justify">Some papers that have helped shape my perspective on DEI and representation in geoscience:
