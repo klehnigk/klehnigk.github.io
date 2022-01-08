@@ -22,6 +22,9 @@ permalink: /2_dei/
 		<img src="/assets/images/BBBS1.jpg">
 			<figcaption><a href=" https://www.bbbs.org/"><b>Big Brothers Big Sisters</b></a> pairs kids from underserved communities with a long-term mentor. My Little Sister is the absolute best; here we are after helping out at a river cleanup!</figcaption>
 	</figure>
+</p>
+
+<p style="text-align:justify">
 	
 	<figure alt="Eureka (Girls, Inc.)" style="width:330px;height:330px;margin-right:10px;float:left;padding-right:10px;padding-bottom:10px">
 		<img src="/assets/images/Eureka1.png">
