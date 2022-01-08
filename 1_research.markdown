@@ -25,13 +25,13 @@ permalink: /1_research/
 <p style="text-align:justify"> So which one is right? We sample flood-transported granite boulders to sort out the timing of floods on different surfaces and along different pathways. When something sits on the Earth’s surface for a long time, it accumulates an isotope called beryllium-10 at a predictable rate from cosmic rays. We can measure the amount of beryllium-10 in a rock, and use it as a clock to say when that rock was eroded, transported, and deposited by floods. Explore our sample locations throughout the Scablands here!
 </p>
 
-<p style="text-align:justify"> 
+
 <figure alt="Google Maps link" style="width:740px;height:640px">
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qJa_qHb52JfgC1wwAcMDa_GWHLKectq_" width="740" height="480"></iframe>
 <figcaption style ="text-align:justify">
 	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from <a href=" https://iafi.org/iafi/wp-content/uploads/Balbas2017-Missoula-Flood-Chronology.pdf"><b>Balbas et al. (2017)</b></a> are included for reference.
 	</figcaption> 
-</p>
+
 	
 <p style="text-align:justify">We can also test whether floods of different sizes would be big enough to erode the rock that makes up the landscape. The Channeled Scablands are a neat place to test this because the columnar basalt that makes up the bedrock has a relatively consistent fracture geometry, and the straight walls of canyons like Grand Coulee indicate that they were probably carved by giant waterfalls that retreated as they eroded.
 </p>
