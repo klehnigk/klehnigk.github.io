@@ -18,7 +18,7 @@ permalink: /2_dei/
 			<figcaption><a href=" https://urgeoscience.org/"><b>URGE</b></a> (Unlearning Racism in Geoscience) is an internatinal, NSF-funded curriculum designed to help groups within the geoscience community unlearn racism and improve accessibility, justice, equity, diversity, and inclusion. I participated in two groups--one with the <a href=" https://urgeoscience.org/pods/umass-amherst-geosciences/"><b>UMass Geosciences Department</b></a> and one in the <a href=" https://urgeoscience.org/pods/agu-earth-and-planetary-surface-processes-section-epsp/"><b>AGU Earth and Planetary Surface Processes section</b></a>.</figcaption>
 	</figure>
 	
-	<figure alt="BBBS (Big Brothers Big Sisters)" style="width:330px;height:330px;margin-right:10px;float:left;padding-right:10px;padding-bottom:10px">
+	<figure alt="BBBS (Big Brothers Big Sisters)" style="width:330px;height:330px;margin-right:10px;float:left;padding-right:10px;padding-bottom:40px">
 		<img src="/assets/images/BBBS1.jpg">
 			<figcaption><a href=" https://www.bbbs.org/"><b>Big Brothers Big Sisters</b></a> pairs kids from underserved communities with a long-term mentor. My Little Sister is the absolute best; here we are after helping out at a river cleanup!</figcaption>
 	</figure>
