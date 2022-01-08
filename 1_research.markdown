@@ -32,18 +32,16 @@ permalink: /1_research/
 	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from <a href=" https://iafi.org/iafi/wp-content/uploads/Balbas2017-Missoula-Flood-Chronology.pdf"><b>Balbas et al. (2017)</b></a> are included for reference.
 	</figcaption> 
 	
-<p style="text-align:justify">We can also test whether floods of different sizes would be big enough to erode the rock that makes up the landscape. The Channeled Scablands are a neat place to test this because the columnar basalt that makes up the bedrock has a relatively consistent fracture geometry, and field evidence (link: ), modern analogs (link: ), and lab experiments (link: ) indicate that the canyons were probably carved by giant waterfalls that retreated as they eroded.
+<p style="text-align:justify">We can also test whether floods of different sizes would be big enough to erode the rock that makes up the landscape. The Channeled Scablands are a neat place to test this because the columnar basalt that makes up the bedrock has a relatively consistent fracture geometry, and the straight walls of canyons like Grand Coulee indicate that they were probably carved by giant waterfalls that retreated as they eroded.
 </p>
+
+	
+
 
 <figcaption style ="text-align:justify">Adjust the dimensions, shear stress, and cohesion of the column to see whether it will topple, slide, or stay put
 </figcaption> 
-	
-<style>
-		canvas {border: 1px solid black;}
-</style>
 
 
-<h1>Canvas</h1>
 <canvas width="200" height="200" id="myCanvas"></canvas>
     <script>
 		var canvas = document.getElementByID("myCanvas");
