@@ -35,7 +35,7 @@ permalink: /4_random/
 </p>
 
 <p style="text-align:justify">Some of my favorite podcasts
-	<figure alt="Grid of podcasts" style="width:300px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:170px">
+	<figure alt="Grid of podcasts" style="width:300px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:10px">
 		<img src="/assets/images/podcasts.jpg">
 	</figure>
 </p>
