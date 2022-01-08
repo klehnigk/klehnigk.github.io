@@ -57,6 +57,9 @@ permalink: /1_research/
 
 
 <p style="text-align:justify">Another big question is: what did the landscape look like before it was altered by erosion from big floods? If we want to model floods on topography similar to what they would have encountered, rather than the modern landscape, we need to make some assumptions about what that prior landscape looked like--which is hard to do when it’s gone! Luckily, many landscapes contain clues to help us reconstruct prior land surfaces over which we can run our hydraulic models of early floods.
+	<figure alt="Canyon diagrams" style="width:740px;height:454px;margin-right:15px;float:left;padding-right:20px;padding-bottom:10px">
+		<img src="/assets/images/flood.jpg">
+	</figure>
 </p>
 
 <p style="text-align:justify">In the Channeled Scablands, we use hanging tributaries to interpolate a pre-incision valley. In northern Norway, the canyon is so narrow we can just connect the banks. On Mars, terraces from successive waves of incision tell us the elevation of the channel floor at different times.
