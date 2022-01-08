@@ -12,7 +12,7 @@ permalink: /4_random/
 <body>
 	
 <p style="text-align:justify">My favorite thing to do after a long day in the field is to sketch. Here are a couple of my favorites...
-	<figure alt="Landscape sketches" style="width:740px;height:454px;margin-right:15px;float:left;padding-right:20px;padding-bottom:30px">
+	<figure alt="Landscape sketches" style="width:740px;height:454px;margin-right:15px;float:left;padding-right:20px;padding-bottom:10px">
 		<img src="/assets/images/sketches1.jpg">
 	</figure>
 </p>
