@@ -12,6 +12,12 @@ permalink: /2_dei/
 <body>
 	
 <p style="text-align:justify">The topic of landscape change is relevant to many aspects of society, especially now that so much present-day landscape change is caused, directly or indirectly, by people. So it's vital that we make the field as inclusive as possible, from lab groups to university departments to international societies, so that those who are most affected by urgent problems such as climate change, water availability, and food security can shape the way  we respond to them. More generally, communities have a responsibility to confront and dismantle racism, ableism, and sexism inherent in our systems and institutions in order for everyone to have the opportunity to succeed. Below are some of the initiatives I'm proud to have contributed to; I encourage you to read more about each one in the links below!
+	
+	<figure alt="URGE (Unlearning Racism in Geoscience)" style="width:340px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:10px">
+		<img src="/assets/images/SLI.JPG">
+			<figcaption><a href=" https://urgeoscience.org/"><b>URGE</b> (Unlearning Racism in Geoscience) is an internatinal, NSF-funded curriculum designed to help groups within the geoscience community unlearn racism and improve accessibility, justice, equity, diversity, and inclusion. I participated in two groups--one with the <a href=" https://urgeoscience.org/pods/umass-amherst-geosciences/"><b>UMass Geosciences Department</b> and one in the <a href=" https://urgeoscience.org/pods/agu-earth-and-planetary-surface-processes-section-epsp/"><b>AGU Earth and Planetary Surface Processes section</b>.</figcaption>
+	</figure>
+	
 </p>
 
 <p style="text-align:justify">Some papers that have helped shape my perspective on DEI and representation in geoscience:
