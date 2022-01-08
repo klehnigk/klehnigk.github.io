@@ -26,7 +26,7 @@ permalink: /2_dei/
 
 <p style="text-align:justify">
 	
-	<figure alt="Eureka (Girls, Inc.)" style="width:330px;height:330px;margin-right:10px;float:left;padding-right:10px;padding-bottom:10px">
+	<figure alt="Eureka (Girls, Inc.)" style="width:330px;height:330px;margin-right:10px;float:left;padding-right:10px;padding-bottom:50px">
 		<img src="/assets/images/Eureka1.png">
 			<figcaption><a href=" https://www.girlsincvalley.org/portfolio/eureka/"><b>Eureka! Girls Inc.</b></a> is a comprehensive 5-year STEM program for girls; scholars are introduced to the program through a summer camp, where they take part in activities offered by university students and faculty, transitioning to externship and college prep in later years. I love coming up with new activities for this group each year; here we are learning about coring and the sedimentary record!</figcaption>
 	</figure>
