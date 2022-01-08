@@ -30,7 +30,7 @@ permalink: /2_dei/
 	
 	<figure alt="Skype a Scientist" style="width:330px;height:330px;margin-right:10px;float:left;padding-right:10px;padding-bottom:10px">
 		<img src="/assets/images/skype1.png">
-			<figcaption><a href=" https://www.skypeascientist.com/"><b>Skype a Scientist</b> connects classrooms with STEM professionals around the globe over video conference. This has been an especially  great  way to connect during the COVID-19 pandemic!</a></figcaption>
+			<figcaption><a href=" https://www.skypeascientist.com/"><b>Skype a Scientist</b></a> connects classrooms with STEM professionals around the globe over video conference. This has been an especially  great  way to connect during the COVID-19 pandemic!</figcaption>
 	</figure>
 	
 </p>	
