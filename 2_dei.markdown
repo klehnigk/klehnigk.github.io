@@ -38,7 +38,7 @@ permalink: /2_dei/
 	
 </p>	
 
-<p style="text-align:justify">Some papers that have helped shape my perspective on DEI and representation in geoscience:
+<p style="text-align:justify"><b>Some papers that have helped shape my perspective on DEI and representation in geoscience:</b>
 </p>
 
 <p style="text-align:justify">An actionable anti-racism plan for geoscience organizations <a href=" https://www.nature.com/articles/s41467-021-23936-w"><b>(Ali et al., 2021)</b></a>
