@@ -15,15 +15,14 @@ permalink: /2_dei/
 	
 	<figure alt="URGE (Unlearning Racism in Geoscience)" style="width:340px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:10px">
 		<img src="/assets/images/URGE.jpg">
-			<figcaption><a href=" https://urgeoscience.org/"><b>URGE</b> (Unlearning Racism in Geoscience) is an internatinal, NSF-funded curriculum designed to help groups within the geoscience community unlearn racism and improve accessibility, justice, equity, diversity, and inclusion. I participated in two groups--one with the <a href=" https://urgeoscience.org/pods/umass-amherst-geosciences/"><b>UMass Geosciences Department</b> and one in the <a href=" https://urgeoscience.org/pods/agu-earth-and-planetary-surface-processes-section-epsp/"><b>AGU Earth and Planetary Surface Processes section</b>.</figcaption>
+			<figcaption><a href=" https://urgeoscience.org/"><b>URGE</b></a> (Unlearning Racism in Geoscience) is an internatinal, NSF-funded curriculum designed to help groups within the geoscience community unlearn racism and improve accessibility, justice, equity, diversity, and inclusion. I participated in two groups--one with the <a href=" https://urgeoscience.org/pods/umass-amherst-geosciences/"><b>UMass Geosciences Department</b> and one in the <a href=" https://urgeoscience.org/pods/agu-earth-and-planetary-surface-processes-section-epsp/"><b>AGU Earth and Planetary Surface Processes section</b>.</figcaption>
 	</figure>
 	
 	<figure alt="BBBS (Big Brothers Big Sisters)" style="width:340px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:10px">
 		<img src="/assets/images/BBBS.jpg">
 			<figcaption><a href=" https://urgeoscience.org/"><b>Big Brothers Big Sisters</b> pairs kids from underserved communities with a long-term mentor. My Little Sister is the absolute best; here we are after helping out at a river cleanup!</b>.</figcaption>
 	</figure>
-	
-</p>
+</p>	
 
 <p style="text-align:justify">Some papers that have helped shape my perspective on DEI and representation in geoscience:
 </p>
