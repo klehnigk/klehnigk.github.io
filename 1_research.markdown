@@ -36,21 +36,12 @@ permalink: /1_research/
 </p>
 
 	
-
+<style>
+		canvas {border: 1px solid black;}
+</style>
 
 <figcaption style ="text-align:justify">Adjust the dimensions, shear stress, and cohesion of the column to see whether it will topple, slide, or stay put
 </figcaption> 
-
-
-<canvas width="200" height="200" id="myCanvas"></canvas>
-    <script>
-		var canvas = document.getElementByID("myCanvas");
-		var ctx = canvas.getContext("2d");
-		
-		ctx.fillStyle = "rgb(200, 0, 200)";
-		ctx.fillRect(50, 40, 100, 30);
-		ctx.fillRect(50, 40, 100, 30);
-    </script>
 
 
 <p style="text-align:justify">Another big question is: what did the landscape look like before it was altered by erosion from big floods? If we want to model floods on topography similar to what they would have encountered, rather than the modern landscape, we need to make some assumptions about what that prior landscape looked like--which is hard to do when it’s gone! Luckily, many landscapes contain clues to help us reconstruct prior land surfaces over which we can run our hydraulic models of early floods.
