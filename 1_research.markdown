@@ -65,6 +65,7 @@ permalink: /1_research/
 
 <p style="text-align:justify">In the Channeled Scablands, we use hanging tributaries to interpolate a pre-incision valley. In northern Norway, the canyon is so narrow we can just connect the banks. On Mars, terraces from successive waves of incision tell us the elevation of the channel floor at different times.
 </p>
+</p>
 
 </body>
 </html>
