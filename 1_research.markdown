@@ -35,7 +35,7 @@ permalink: /1_research/
 <p style="text-align:justify">We can also test whether floods of different sizes would be big enough to erode the rock that makes up the landscape. The Channeled Scablands are a neat place to test this because the columnar basalt that makes up the bedrock has a relatively consistent fracture geometry, and the straight walls of canyons like Grand Coulee indicate that they were probably carved by giant waterfalls that retreated as they eroded.
 </p>
 
-	
+<p style="text-align:justify">
 <style>
 		canvas {border: 1px solid black;}
 </style>
@@ -54,6 +54,7 @@ permalink: /1_research/
 		ctx.fillRect(50, 40, 100, 30);
 		ctx.fillRect(50, 40, 100, 30);
     </script>
+</p>
 
 
 <p style="text-align:justify">Another big question is: what did the landscape look like before it was altered by erosion from big floods? If we want to model floods on topography similar to what they would have encountered, rather than the modern landscape, we need to make some assumptions about what that prior landscape looked like--which is hard to do when it’s gone! Luckily, many landscapes contain clues to help us reconstruct prior land surfaces over which we can run our hydraulic models of early floods.
