@@ -40,7 +40,9 @@ permalink: /1_research/
 <style>
 		canvas {border: 1px solid black;}
 </style>
+</p>
 
+<p style="text-align:justify">
 <h1>Canvas</h1>
 <canvas width="200" height="200" id="myCanvas"></canvas>
     <script>
@@ -64,7 +66,6 @@ permalink: /1_research/
 </p>
 
 <p style="text-align:justify">In the Channeled Scablands, we use hanging tributaries to interpolate a pre-incision valley. In northern Norway, the canyon is so narrow we can just connect the banks. On Mars, terraces from successive waves of incision tell us the elevation of the channel floor at different times.
-</p>
 </p>
 
 </body>
