@@ -26,7 +26,7 @@ permalink: /1_research/
 </p>
 
 
-<figure alt="Google Maps link" style="width:740px;height:640px">
+<figure alt="Google Maps link" style="width:740px;height:540px">
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qJa_qHb52JfgC1wwAcMDa_GWHLKectq_" width="740" height="480"></iframe>
 <figcaption style ="text-align:justify">
 	<b>Fig. 2 </b>Click and drag to pan around the map, scroll to zoom in/out, and click the pins to see field photos of our samples. Some samples from <a href=" https://iafi.org/iafi/wp-content/uploads/Balbas2017-Missoula-Flood-Chronology.pdf"><b>Balbas et al. (2017)</b></a> are included for reference.
@@ -39,7 +39,7 @@ permalink: /1_research/
 
 
 <p style="text-align:justify">Another big question is: what did the landscape look like before it was altered by erosion from big floods? If we want to model floods on topography similar to what they would have encountered, rather than the modern landscape, we need to make some assumptions about what that prior landscape looked like--which is hard to do when it’s gone! Luckily, many landscapes contain clues to help us reconstruct prior land surfaces over which we can run our hydraulic models of early floods.
-	<figure alt="Canyon diagrams" style="width:740px;height:300px;margin-right:15px;float:left;padding-right:20px;padding-bottom:10px">
+	<figure alt="Canyon diagrams" style="width:740px;height:260px;margin-right:15px;float:left;padding-right:20px;padding-bottom:10px">
 		<img src="/assets/images/flood1.jpg">
 	</figure>
 </p>
